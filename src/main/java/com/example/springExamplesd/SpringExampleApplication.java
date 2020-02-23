@@ -16,7 +16,7 @@ public class SpringExampleApplication {
 		SpringApplication.run(SpringExampleApplication.class, args);
 	}
 
-	
+	//test29 for gittest
 	
 	@RequestMapping(value = "/id", params = "id", method = RequestMethod.GET)
 	@ResponseBody

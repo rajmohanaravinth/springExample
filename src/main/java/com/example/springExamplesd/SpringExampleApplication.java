@@ -17,6 +17,7 @@ public class SpringExampleApplication {
 	}
 
 	
+	
 	@RequestMapping(value = "/id", params = "id", method = RequestMethod.GET)
 	@ResponseBody
 	public String getBarBySimplePathWithExplicitRequestParam(

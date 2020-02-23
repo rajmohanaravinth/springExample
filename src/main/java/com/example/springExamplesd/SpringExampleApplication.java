@@ -30,5 +30,13 @@ public class SpringExampleApplication {
 	    System.out.println("ID is "+personId);  
 	    return "Get ID from query string of URL without value element";  
 	  }
+	 
+	  @RequestMapping(value = "/id")                
+	  String getIdByValue(@RequestParam("id") String personId){
+	    System.out.println("ID is "+personId);
+	    return "Get ID from query string of URL with value element";
+	  }
+	 
+	 
 
 }
